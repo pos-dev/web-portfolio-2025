@@ -1240,12 +1240,13 @@ header nav ul li a:hover,  .pt_mobile_nav nav ul li a:hover {
 
 /* Contact Section */
 #contact {
-    /* -webkit-backdrop-filter: blur(10px); */
     padding: 60px 20px;
     background-color: rgba(18, 18, 18, 0.9);
     text-align: center;
-    filter: blur();
-    /* backdrop-filter: blur(10px); */
+    height: 1px;
+    bottom: -1px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
 }
 
 #contact h2 {
