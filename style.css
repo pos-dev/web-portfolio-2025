@@ -690,37 +690,6 @@ header nav ul li a:hover,  .pt_mobile_nav nav ul li a:hover {
     }
 }
 
-/* Contact Section */
-#contact {
-    padding: 60px 20px;
-    background-color: rgba(18, 18, 18, 0.9);
-    text-align: center;
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-            backdrop-filter: blur(10px);
-}
-
-#contact h2 {
-    font-size: 40px;
-    margin-bottom: 20px;
-}
-
-#contact p {
-    font-size: 20px;
-    /* margin-bottom: 10px; */
-}
-
-/* Footer */
-footer {
-    padding: 30px 20px;
-    background-color: rgba(18, 18, 18, 0.9);
-    text-align: center;
-}
-
-footer p {
-    color: #fff;
-    font-size: 18px;
-}
 
 
 /* Experience Section */
@@ -1028,7 +997,8 @@ footer p {
     padding: 20px 20px;
     background-color: rgba(18, 18, 18, 0.9);
     text-align: left;
-    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+            backdrop-filter: blur(10px);
   }
 
   #projects h2 {
@@ -1059,12 +1029,18 @@ footer p {
     border-radius: 0.75rem;
     padding: 1.5rem;
     height: 100%;
-    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
     transition: all 0.5s;
   }
   
   .pt_project-card-inner:hover {
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
     transform: scale(1.05);
+    -webkit-box-shadow: 0 8px 32px rgba(209, 209, 209, 0.379);
     box-shadow: 0 8px 32px rgba(209, 209, 209, 0.379);
   }
   
@@ -1258,11 +1234,24 @@ footer p {
 
 
 /* Contact Section */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+#contact {
+    padding: 60px 20px;
+    background-color: rgba(18, 18, 18, 0.9);
+    text-align: center;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+            backdrop-filter: blur(10px);
 }
+
+#contact h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+#contact p {
+    font-size: 20px;
+}
+
 
 .pt_globe-container {
     position: fixed;
@@ -1307,7 +1296,6 @@ footer p {
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 2rem;
     margin: 0 auto;
-    /* max-width: 1000px; */
 }
 
 .pt_contact-card {
@@ -1435,6 +1423,17 @@ h3 {
     }
 }
 
+/* Footer */
+footer {
+    padding: 30px 20px;
+    background-color: rgba(18, 18, 18, 0.9);
+    text-align: center;
+}
+
+footer p {
+    color: #fff;
+    font-size: 18px;
+}
 
 /* Hide "Demo" Button - Projects  */
 #projectsContainer > div:nth-child(2) > div > div.pt_links-container > a.pt_project-link.pt_demo-link,
