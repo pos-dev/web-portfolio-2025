@@ -168,7 +168,7 @@ document.addEventListener('DOMContentLoaded', () => {
 const projects = [
     {
       title: "Covid Tracker",
-      description: "Exploring the WeChat DevTools environment by developing a COVID tracker mini program that fetches real-time covid cases data from an API.",
+      description: "Exploring the WeChat DevTools environment by developing a covid tracker mini program that fetches real-time covid cases data from an API.",
       tags: ["WeChat", "Node.js", "Postman", "MongoDB"],
       icon: "boxes",
       link: "",
@@ -177,7 +177,7 @@ const projects = [
     },
     {
       title: "Tic Tac Toe",
-      description: "A straightforward Tic Tac Toe web game that is fully compatible with any browser.",
+      description: "A straightforward tic tac toe web game that is fully compatible with any browser.",
       tags: ["React.js", "Gatsby"],
       icon: "code-2",
       link: "",
@@ -186,7 +186,7 @@ const projects = [
     },
     {
       title: "WordPress Website",
-      description: "A complete full-stack WordPress website built from ground up on localhost and deployed via Hostinger.",
+      description: "A complete full-stack WordPress website built from ground up on localhost, and deployed via Hostinger.",
       tags: ["WordPress", "MySQL", "Linux", "Hostinger", "PHP", "JavaScript"],
       icon: "code",
       link: "https://www.thebeijingdevils.com/",
