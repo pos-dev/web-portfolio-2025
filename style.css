@@ -1240,7 +1240,6 @@ header nav ul li a:hover,  .pt_mobile_nav nav ul li a:hover {
     text-align: center;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
-            backdrop-filter: blur(10px);
 }
 
 #contact h2 {
