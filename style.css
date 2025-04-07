@@ -34,9 +34,9 @@ header {
     padding: 12px 30px;
     position: sticky;
     top: 0;
-    /* background-color: rgba(18, 18, 18, 0.9); */
     z-index: 100;
     backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
 }
 
 header .pt_logo h1 {
@@ -346,6 +346,7 @@ header nav ul li a:hover,  .pt_mobile_nav nav ul li a:hover {
     background-color: rgba(18, 18, 18, 0.9);
     text-align: center;
     backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
 }
 
 #about h2 {
@@ -417,6 +418,7 @@ header nav ul li a:hover,  .pt_mobile_nav nav ul li a:hover {
 .pt_glass-card {
     background: rgb(29 29 29);
     backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(10px);
     border: 1px solid rgba(159, 145, 145, 0.2);
     box-shadow: 0 8px 32px rgba(209, 209, 209, 0.1);
     border-radius: 1rem;
@@ -639,6 +641,7 @@ header nav ul li a:hover,  .pt_mobile_nav nav ul li a:hover {
     background-color: rgba(18, 18, 18, 0.9);
     text-align: center;
     backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
 }
 
 #skills h2 {
@@ -698,6 +701,7 @@ header nav ul li a:hover,  .pt_mobile_nav nav ul li a:hover {
     background-color: rgba(18, 18, 18, 0.8);
     text-align: left;
     backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
 }
 
 #experience h2 {
@@ -860,6 +864,7 @@ header nav ul li a:hover,  .pt_mobile_nav nav ul li a:hover {
 .pt_card-content {
     background: rgba(255, 255, 255, 0.05);
     backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     padding: 2rem;
     border-radius: 15px;
     border: 1px solid rgba(255, 255, 255, 0.1);
@@ -1235,11 +1240,11 @@ header nav ul li a:hover,  .pt_mobile_nav nav ul li a:hover {
 
 /* Contact Section */
 #contact {
+    -webkit-backdrop-filter: blur(10px);
     padding: 60px 20px;
     background-color: rgba(18, 18, 18, 0.9);
     text-align: center;
     backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
 }
 
 #contact h2 {
@@ -1306,6 +1311,7 @@ header nav ul li a:hover,  .pt_mobile_nav nav ul li a:hover {
     cursor: pointer;
     position: relative;
     backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.1);
     opacity: 0;
     animation: fadeIn 0.6s ease forwards;
@@ -1362,6 +1368,7 @@ h3 {
     background: rgba(255, 255, 255, 0.05);
     border-radius: 50px;
     backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     opacity: 0;
     animation: fadeIn 0.6s ease forwards 0.8s;
 }
