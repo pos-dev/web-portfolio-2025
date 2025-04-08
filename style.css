@@ -179,7 +179,7 @@ header nav ul li a:hover,  .pt_mobile_nav nav ul li a:hover {
   }
   .pt_cubespinner div {
 	  position:absolute;
-	  width:max-content;
+	  width: max-content;
 	  height:80px;
 	  text-align:left;
 	  color:#109393;
@@ -1243,10 +1243,8 @@ header nav ul li a:hover,  .pt_mobile_nav nav ul li a:hover {
     padding: 60px 20px;
     background-color: rgba(18, 18, 18, 0.9);
     text-align: center;
-    height: 1px;
-    bottom: -1px;
-    backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
 }
 
 #contact h2 {
