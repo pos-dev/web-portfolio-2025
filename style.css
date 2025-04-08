@@ -155,7 +155,7 @@ header nav ul li a:hover,  .pt_mobile_nav nav ul li a:hover {
 
 
 .pt_stage{
-	width: auto;
+	max-width: 100%;
     height: 100px;
   }
   .pt_cubespinner{
