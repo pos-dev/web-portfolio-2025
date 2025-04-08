@@ -596,6 +596,13 @@ header nav ul li a:hover,  .pt_mobile_nav nav ul li a:hover {
     width: 100vw;
     white-space: nowrap;
 }
+
+@media only screen and (max-width: 700px) {
+    .pt_slideshow-container {
+      overflow: hidden;
+    }
+  }
+
 .pt_slides {
     display: flex;
     width: calc(6 * (100%));
@@ -611,7 +618,7 @@ header nav ul li a:hover,  .pt_mobile_nav nav ul li a:hover {
     text-align: center;
     font-size: 24px;
     border-radius: 10px;
-    margin: 0 15px;
+    margin: 0 15px;`
     transition: transform 0.5s;
     display: flex;
     flex-direction: column;
