@@ -190,9 +190,15 @@ header nav ul li a:hover,  .pt_mobile_nav nav ul li a:hover {
 
     @media only screen and (max-width: 700px) {
         .pt_hero-heading, .pt_cubespinner div {
-          font-size: 28px;
+          font-size: 35px;
         }
       }
+
+    @media only screen and (max-width: 500px) {
+    .pt_hero-heading, .pt_cubespinner div {
+        font-size: 28px;
+    }
+    } 
 
   .pt_cubespinner .pt_face1{
 	  color:#f1c40f;
@@ -597,9 +603,10 @@ header nav ul li a:hover,  .pt_mobile_nav nav ul li a:hover {
     white-space: nowrap;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 500px) {
     .pt_slideshow-container {
       overflow: hidden;
+      width: 100%;
     }
   }
 
