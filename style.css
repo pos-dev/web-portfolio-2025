@@ -593,8 +593,7 @@ header nav ul li a:hover,  .pt_mobile_nav nav ul li a:hover {
 /* Start: Auto Slideshow */
 .pt_slideshow-container {
     position: relative;
-    width: 100%;
-    overflow: hidden;
+    width: 100vw;
     white-space: nowrap;
 }
 .pt_slides {
