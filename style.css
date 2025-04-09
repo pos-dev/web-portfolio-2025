@@ -76,6 +76,12 @@ header .pt_logo span {
     }
   }
 
+@media only screen and (max-width: 500px) {
+.pt_mobile_nav {
+    padding: 12px 15px;
+}
+}  
+
 header nav ul, .pt_mobile_nav nav ul  {
     display: flex;
     gap: 30px;
@@ -328,12 +334,20 @@ header nav ul li a:hover,  .pt_mobile_nav nav ul li a:hover {
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
 }
 
+@media only screen and (max-width: 500px) {
+    .pt_cta-btn {
+        font-size: 0.9rem;
+    }
+    } 
+
 .pt_cta-btn:hover {
     transform: translateY(-3px);
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
     background: rgba(255, 255, 255, 0.25);
     border: 1px solid rgba(255, 255, 255, 0.6);
 }
+
+
 
 /* Particle Animation Background */
 #particles-js {
@@ -1287,7 +1301,7 @@ header nav ul li a:hover,  .pt_mobile_nav nav ul li a:hover {
     justify-content: center;
     align-items: center;
     z-index: 2;
-    padding: 2rem;
+    /* padding: 2rem; */
 }
 
 .pt_contact-content {
@@ -1439,6 +1453,12 @@ h3 {
     
     .pt_contact-card {
         padding: 1.5rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .pt_contact-cards {
+        padding: 0;
     }
 }
 
