@@ -160,10 +160,18 @@ header nav ul li a:hover,  .pt_mobile_nav nav ul li a:hover {
 
 
 
-.pt_stage{
+.pt_stage {
 	max-width: 100%;
     height: 100px;
   }
+
+@media only screen and (max-width: 500px) {
+.pt_stage {
+    height: 60px
+}
+}  
+
+
   .pt_cubespinner{
 	-webkit-animation-name:spincube;
 	-webkit-animation-timing-function:ease-in-out;
