@@ -637,6 +637,14 @@ header nav ul li a:hover,  .pt_mobile_nav nav ul li a:hover {
     width: calc(6 * (100%));
     animation: slide 60s linear infinite;
 }
+
+@media only screen and (max-width: 600px) {
+    .pt_slides {
+        width: calc(20 * (100%));
+        animation: slide 30s linear infinite;
+    }
+}
+
 .pt_slide {
     width: calc(100% / 4);
     flex: 0 0 auto;
