@@ -126,6 +126,13 @@ header nav ul li a:hover,  .pt_mobile_nav nav ul li a:hover {
     text-align: center;
 }
 
+@media only screen and (max-width: 500px) {
+    .pt_hero {
+        background-position: 60% 50%;
+    }
+}
+
+
 .pt_hero-content {
     z-index: 10;
     opacity: .8;
